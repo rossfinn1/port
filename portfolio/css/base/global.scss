@@ -1,0 +1,44 @@
+//Typography
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+h1 ,h2, h3 {
+  font-family: 'Dosis';
+  color: $textcol;
+}
+
+h2 {
+  font-size: 20px;
+  
+  a {
+        color: $textcol;
+       }  
+}
+
+h3 {
+  font-size: 15px;
+  color: $accent;
+       
+}
+  
+p {
+   font-family: 'open sans'; 
+   font-size: 15px;     
+} 
+
+//General
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.hrule {
+  width: 10%;               
+  background-color: $accent;
+  height: 2.5px;
+}
+
+
+
+
+

@@ -1,0 +1,46 @@
+/* navbar */
+.navbar-default {
+    background-color: $back-two;
+    border-bottom: 0.5px solid #979797;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: $textcol;
+    font-family: 'Dosis';
+    font-size: 15px;
+}
+
+//hover
+.navbar-default .navbar-nav > li > a {
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    transition: all 0.8s; 
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    border-bottom: 2px solid $accent;                    
+}
+
+//focus
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: $back-two;
+    border-bottom: 2px solid $accent;  
+}
+
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+}

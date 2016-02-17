@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+h1, h2, h3 {
+  font-family: 'Dosis';
+  color: black;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h2 a {
+  color: black;
+}
+
+h3 {
+  font-size: 15px;
+  color: #d07c7c;
+}
+
+p {
+  font-family: 'open sans';
+  font-size: 15px;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.hrule {
+  width: 10%;
+  background-color: #d07c7c;
+  height: 2.5px;
+}
+
+/* navbar */
+.navbar-default {
+  background-color: #fff;
+  border-bottom: 0.5px solid #979797;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-family: 'Dosis';
+  font-size: 15px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  border-bottom: 2px solid transparent;
+  transition: all 0.8s;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  border-bottom: 2px solid #d07c7c;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #d07c7c;
+}
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+.about-section {
+  height: 100%;
+  padding-top: 140px;
+  text-align: left;
+  background: #eee;
+}
+
+.work-section {
+  height: 100%;
+  padding: 60px 0 60px 0;
+  text-align: left;
+  background: #fff;
+}
+
+.modal-fullscreen {
+  background: transparent;
+}
+
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #fff;
+}
+
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97);
+}
+
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+    width: 1170px;
+  }
+}
+
+.footer-section {
+  height: 15%;
+  text-align: center;
+  background: #d07c7c;
+}

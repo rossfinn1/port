@@ -1,1 +1,37 @@
+#tf-contact{
+	padding: 40px 0;
+    background: $back-one;
+    text-align:center;
+    height: 100%;
+}
+
+.section-title {
+    padding-bottom: 80px;
+}
+
+label {
+	float: left;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#tf-contact .form-control:focus {
+	border-color: inherit;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+
+button.btn.tf-btn.btn-default {
+	float: left;
+	background: $accent;
+	border: 0;
+	border-radius: 0;
+	padding: 10px 40px;
+	color: $back-two;
+	text-transform: uppercase;
+    text-align: center;
+}
+
 

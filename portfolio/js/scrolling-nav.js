@@ -1,13 +1,4 @@
-//jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
-    } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-    }
-});
-
-//jQuery for page scrolling feature - requires jQuery Easing plugin
+//PAGE SCROLLING
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -18,9 +9,9 @@ $(function() {
     });
 });
 
-//Modals
 
-//Portfolio Modals
+
+//PORTFOLIO MODALS
 $(".modal-fullscreen").on('show.bs.modal', function () {
   setTimeout( function() {
     $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
@@ -30,4 +21,31 @@ $(".modal-fullscreen").on('hidden.bs.modal', function () {
   $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
 });
 
-//Contact Modal
+
+
+function main() {
+
+(function () {
+   'use strict';
+
+//NAVBAR SCROLL FUNCTIONS
+    $(window).bind('scroll', function() {
+        var navHeight = $(window).height() - 100;
+        if ($(window).scrollTop() > navHeight) {
+            $('.navbar-default').addClass('on');
+        } else {
+            $('.navbar-default').removeClass('on');
+        }
+    });
+
+    $('body').scrollspy({ 
+        target: '.navbar-default',
+        offset: 80
+    })
+
+
+}());
+
+
+}
+main();

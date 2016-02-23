@@ -34,6 +34,16 @@ body, html {
   height: 2.5px;
 }
 
+::-moz-selection {
+  background: #3D3C3A;
+  color: #fff;
+}
+
+::selection {
+  background: #3D3C3A;
+  color: #fff;
+}
+
 /* Navigation */
 #tf-menu {
   padding: 20px;

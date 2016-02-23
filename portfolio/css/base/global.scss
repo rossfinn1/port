@@ -32,18 +32,17 @@ body, html {
   height: 100%;
 }
 
+//Horizontal Rule
 .hrule {
   width: 10%;               
   background-color: $accent;
   height: 2.5px;
 }
 
-//i {
-  //  display: inline-block;
- // margin-right: 1.5em;
-//}
-
-
-
+//Highlighted Text
+::selection {
+  background: $back-one;
+  color: $back-two;
+}
 
 

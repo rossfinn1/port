@@ -225,6 +225,17 @@ a.fa.fa-angle-down:hover {
   padding-bottom: 3%;
 }
 
+.img-responsive {
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+  transition: .3s ease-in-out;
+}
+
+.img-responsive:hover {
+  -webkit-filter: sepia(0);
+  filter: sepia(0);
+}
+
 .modal-fullscreen {
   background: transparent;
 }
@@ -271,13 +282,19 @@ a.fa.fa-angle-down:hover {
 
 #tf-contact {
   padding: 40px 0;
-  background: #EEEEEE;
+  background: #3D3C3A;
   text-align: center;
   height: 100%;
+  border-top: 3px solid #C7A674;
 }
 
 .section-title {
   padding-bottom: 80px;
+  color: #fff;
+}
+
+.contact-box {
+  color: #fff;
 }
 
 label {
@@ -285,12 +302,12 @@ label {
   font-size: 12px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
 #tf-contact .form-control:focus {
-  border-color: inherit;
-  outline: 0;
-  box-shadow: transparent;
+  border-color: #C7A674;
+  box-shadow: none;
 }
 
 button.btn.tf-btn.btn-default {
@@ -304,11 +321,28 @@ button.btn.tf-btn.btn-default {
   text-align: center;
 }
 
+a.fa.fa-angle-up {
+  padding: 10px 15px;
+  color: #fff;
+  border: 2px solid #b4b4b4;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-top: 6%;
+  transition: all 0.5s;
+}
+
+a.fa.fa-angle-up:hover {
+  background: #C7A674;
+  color: #ffffff;
+  border: 2px solid #C7A674;
+}
+
 /* Footer */
 nav#footer {
   background: #222222;
   color: #fff;
   padding: 20px 0 15px 0;
+  text-align: center;
 }
 
 nav#footer .fnav {
@@ -331,7 +365,7 @@ nav#footer p {
   font-size: 20px;
   padding: 4px 5px;
   border-radius: 50%;
-  color: #EEEEEE;
+  color: #3D3C3A;
   transition: all 0.5s;
 }
 

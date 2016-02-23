@@ -39,7 +39,6 @@
             </button>
             <a class="navbar-brand" href="index.html">Ross Finn</a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -48,9 +47,7 @@
                 <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
 
 <!-- About -->
@@ -61,11 +58,11 @@
             <p class="lead">I am a recent graduate with a fondness for <strong> Web Design</strong> and <strong>Development</strong></p>
             <div class="social-icons">
                 <ul class="list-inline">
-                    <a href="https://github.com/rossfinn1"><i class="fa fa-github fa-lg"></i></a>
-                    <a href="https://twitter.com/The_brogrammer"><i class="fa fa-linkedin fa-lg"></i></a>
+                    <a href="https://github.com/rossfinn1"><i class="fa fa-github fa-lg"></i></a>&nbsp &nbsp
+                    <a href="https://twitter.com/The_brogrammer"><i class="fa fa-linkedin fa-lg"></i></a>&nbsp &nbsp
                     <a href="hhttps://www.linkedin.com/in/ross-finn-26819572?trk=nav_responsive_tab_profile_pic"><i class="fa fa-twitter fa-lg"></i>
         </ul>
-      </div> <!-- /.social-icons -->
+      </div>
             <a href="#work" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>
@@ -77,26 +74,24 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="work-div">
-                    <h1>Recent Work </h1>
-                    <hr class="hrule" />
-                    <p>Making it look like readable English. Many desktop publishing packages and web page editors now use Lorem
-                        Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                        in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes
-                        on purpose.</p> 
-                    </div>           
+                        <h1>Recent Work </h1>
+                        <hr class="hrule" />
+                        <p>Making it look like readable English. Many desktop publishing packages and web page editors now use
+                            Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+                            sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+                            sometimes on purpose.</p>
+                    </div>
 
-                    <!-- Portfolio Pieces -->
+                    <!-- PORTFOLIO -->
+                    <!-- First Row -->
                     <div class="row">
                         <!-- First Piece -->
                         <div class="col-md-4 portfolio-item">
-                            <a href="#">
+                            <a a data-toggle="modal" data-target="#modal-fullscreen-one" href="#">
                                 <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                             </a>
                             <h3>Development</h3>
-                            <h2>
-                    <a data-toggle="modal" data-target="#modal-fullscreen-one" href="#">E-card Site</a>
-                </h2>
-                            
+                            <h2><a data-toggle="modal" data-target="#modal-fullscreen-one" href="#">E-card Site</a></h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque
                                 urna varius vitae.</p>
                         </div>
@@ -128,7 +123,7 @@
                             <h3>Development</h3>
                             <h2>
                     <a data-toggle="modal" data-target="#modal-fullscreen-two" href="#">E-Commerce Site</a>
-                </h2>                           
+                </h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque
                                 urna varius vitae.</p>
                         </div>
@@ -160,7 +155,7 @@
                             <h3>Print</h3>
                             <h2>
                     <a data-toggle="modal" data-target="#modal-fullscreen-three" href="#">Confident Futures</a>
-                </h2>                            
+                </h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque
                                 urna varius vitae.</p>
                         </div>
@@ -189,7 +184,7 @@
         </div>
     </section>
 
-    <!-- contact -->
+    <!-- CONTACT SECTION -->
     <div id="tf-contact" class="text-center">
         <div class="container">
 
@@ -197,54 +192,51 @@
                 <div class="col-md-8 col-md-offset-2">
 
                     <div class="section-title center">
-                        <h1>Contact Me</h1>
-                        <div class="line">
-                            <hr>
-                        </div>
+                        <h1 class="contact-box">Contact Me</h1>
+
+                        <hr class="hrule">
                         <div class="clearfix"></div>
                         <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>
                     </div>
-
+                    <!-- FORM -->
                     <form>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <label for="exampleInputPassword1">Name</label>
+                                    <input type="password" class="form-control" id="exampleInputName" placeholder="Name">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Message</label>
-                            <textarea class="form-control" rows="3"></textarea>
+                            <textarea class="form-control " placeholder="Message" rows="3"></textarea>
                         </div>
 
                         <button type="submit" class="btn tf-btn btn-default">Submit</button>
                     </form>
-
+</div>
+            
+            </div>
+            <a href="#work" class="fa fa-angle-up page-scroll"></a>
+        </div>
                 </div>
             </div>
 
         </div>
     </div>
+
     <!--Footer -->
     <nav id="footer">
         <div class="container">
-            <div class="pull-left fnav">
-                <p>ALL RIGHTS RESERVED. COPYRIGHT © 2014. Ross Finn</p>
-            </div>
-            <div class="pull-right fnav">
-                <ul class="footer-social">
-                    <a href="https://github.com/rossfinn1"><i class="fa fa-github fa-lg"></i></a>
-                    <a href="https://twitter.com/The_brogrammer"><i class="fa fa-linkedin fa-lg"></i></a>
-                    <a href="hhttps://www.linkedin.com/in/ross-finn-26819572?trk=nav_responsive_tab_profile_pic"><i class="fa fa-twitter fa-lg"></i>
-                </ul>
+            <div>
+                <p>© RossFinn 2016 | All Rights Reserved. </p>
             </div>
         </div>
     </nav>
@@ -256,6 +248,6 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-</body>
+    </body>
 
 </html>

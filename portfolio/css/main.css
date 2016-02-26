@@ -123,8 +123,9 @@ body, html {
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: #cfcfcf;
-  height: 100%;
   border-bottom: 3px solid #C7A674;
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 #tf-home .overlay {
@@ -137,8 +138,8 @@ body, html {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 );
   /* IE6-9 */
-  height: 100%;
   background-attachment: fixed;
+  box-sizing: border-box;
 }
 
 #tf-home p.lead {
@@ -210,8 +211,9 @@ a.fa.fa-angle-down {
   border: 2px solid #b4b4b4;
   border-radius: 50%;
   font-size: 24px;
-  margin-top: 200px;
   transition: all 0.5s;
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 a.fa.fa-angle-down:hover {
@@ -221,7 +223,6 @@ a.fa.fa-angle-down:hover {
 }
 
 .work-section {
-  height: 100%;
   padding: 60px 0 60px 0;
   text-align: center;
   background: #fff;
@@ -294,7 +295,6 @@ a.fa.fa-angle-down:hover {
   padding: 40px 0;
   background: #3D3C3A;
   text-align: center;
-  height: 100%;
   border-top: 3px solid #C7A674;
 }
 
